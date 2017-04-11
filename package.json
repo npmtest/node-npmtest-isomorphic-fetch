@@ -1,1 +1,40 @@
-{     "devDependencies": {         "isomorphic-fetch": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-isomorphic-fetch",     "homepage": "https://github.com/npmtest/node-npmtest-isomorphic-fetch",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-isomorphic-fetch.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [isomorphic-fetch (v2.2.1)](https://github.com/matthew-andrews/isomorphic-fetch/issues) [![npm package](https://img.shields.io/npm/v/npmtest-isomorphic-fetch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-isomorphic-fetch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-isomorphic-fetch.svg)](https://travis-ci.org/npmtest/node-npmtest-isomorphic-fetch)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "isomorphic-fetch": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-isomorphic-fetch",
+    "keywords": [
+        "coverage",
+        "test",
+        "isomorphic-fetch"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_isomorphic_fetch.js",
+    "name": "npmtest-isomorphic-fetch",
+    "nameAlias": "npmtest_isomorphic_fetch",
+    "nameOriginal": "npmtest-isomorphic-fetch",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-isomorphic-fetch.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
