@@ -1,7 +1,7 @@
 # test coverage for  [isomorphic-fetch (v2.2.1)](https://github.com/matthew-andrews/isomorphic-fetch/issues)  [![npm package](https://img.shields.io/npm/v/npmtest-isomorphic-fetch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-isomorphic-fetch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-isomorphic-fetch.svg)](https://travis-ci.org/npmtest/node-npmtest-isomorphic-fetch)
 #### Isomorphic WHATWG Fetch API, for Node & Browserify
 
-[![NPM](https://nodei.co/npm/isomorphic-fetch.png?downloads=true)](https://www.npmjs.com/package/isomorphic-fetch)
+[![NPM](https://nodei.co/npm/isomorphic-fetch.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/isomorphic-fetch)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-isomorphic-fetch/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-isomorphic-fetch/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-isomorphic-fetch/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-isomorphic-fetch%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-isomorphic-fetch/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-isomorphic-fetch%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-isomorphic-fetch/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/test-report.html](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-isomorphic-fetch/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-isomorphic-fetch/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-isomorphic-fetch/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-isomorphic-fetch/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +33,7 @@
 
 {
     "author": {
-        "name": "Matt Andrews",
-        "email": "matt@mattandre.ws"
+        "name": "Matt Andrews"
     },
     "browser": "fetch-npm-browserify.js",
     "bugs": {
@@ -59,17 +64,14 @@
     "main": "fetch-npm-node.js",
     "maintainers": [
         {
-            "name": "financial-times",
-            "email": "strategic.products@ft.com"
+            "name": "financial-times"
         },
         {
-            "name": "mattandrews",
-            "email": "matt@mattandre.ws"
+            "name": "mattandrews"
         }
     ],
     "name": "isomorphic-fetch",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/matthew-andrews/isomorphic-fetch.git"
