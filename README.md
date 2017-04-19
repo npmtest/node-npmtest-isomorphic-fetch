@@ -1,4 +1,7 @@
-# test coverage for  [isomorphic-fetch (v2.2.1)](https://github.com/matthew-andrews/isomorphic-fetch/issues)  [![npm package](https://img.shields.io/npm/v/npmtest-isomorphic-fetch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-isomorphic-fetch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-isomorphic-fetch.svg)](https://travis-ci.org/npmtest/node-npmtest-isomorphic-fetch)
+# npmtest-isomorphic-fetch
+
+#### test coverage for  [isomorphic-fetch (v2.2.1)](https://github.com/matthew-andrews/isomorphic-fetch/issues)  [![npm package](https://img.shields.io/npm/v/npmtest-isomorphic-fetch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-isomorphic-fetch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-isomorphic-fetch.svg)](https://travis-ci.org/npmtest/node-npmtest-isomorphic-fetch)
+
 #### Isomorphic WHATWG Fetch API, for Node & Browserify
 
 [![NPM](https://nodei.co/npm/isomorphic-fetch.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/isomorphic-fetch)
