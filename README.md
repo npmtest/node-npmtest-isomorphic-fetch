@@ -1,6 +1,6 @@
 # npmtest-isomorphic-fetch
 
-#### test coverage for  [isomorphic-fetch (v2.2.1)](https://github.com/matthew-andrews/isomorphic-fetch/issues)  [![npm package](https://img.shields.io/npm/v/npmtest-isomorphic-fetch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-isomorphic-fetch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-isomorphic-fetch.svg)](https://travis-ci.org/npmtest/node-npmtest-isomorphic-fetch)
+#### basic test coverage for  [isomorphic-fetch (v2.2.1)](https://github.com/matthew-andrews/isomorphic-fetch/issues)  [![npm package](https://img.shields.io/npm/v/npmtest-isomorphic-fetch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-isomorphic-fetch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-isomorphic-fetch.svg)](https://travis-ci.org/npmtest/node-npmtest-isomorphic-fetch)
 
 #### Isomorphic WHATWG Fetch API, for Node & Browserify
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-isomorphic-fetch/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-isomorphic-fetch/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-isomorphic-fetch/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-isomorphic-fetch/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-isomorphic-fetch/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-isomorphic-fetch/build/coverage.html/index.html)
 
@@ -83,7 +83,8 @@
         "files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
         "test": "jshint 'npm run -s files' && lintspaces -i js-comments -e .editorconfig 'npm run -s files' && mocha"
     },
-    "version": "2.2.1"
+    "version": "2.2.1",
+    "bin": {}
 }
 ```
 
