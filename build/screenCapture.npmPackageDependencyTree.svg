@@ -7,7 +7,7 @@
 <tspan x="10" y="74">└─┬ isomorphic-fetch@2.2.1 </tspan>
 <tspan x="10" y="90">  ├─┬ node-fetch@1.6.3 </tspan>
 <tspan x="10" y="106">  │ ├─┬ encoding@0.1.12 </tspan>
-<tspan x="10" y="122">  │ │ └── iconv-lite@0.4.15 </tspan>
+<tspan x="10" y="122">  │ │ └── iconv-lite@0.4.16 </tspan>
 <tspan x="10" y="138">  │ └── is-stream@1.1.0 </tspan>
 <tspan x="10" y="154">  └── whatwg-fetch@2.0.3</tspan>
 </text>
